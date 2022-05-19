@@ -1,9 +1,9 @@
 <template>
-<v-app>
-    <Navbar />
+<div>
+  <Navbar />
       <router-view/>
     <Footer />
-</v-app>   
+</div>
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue"
