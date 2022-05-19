@@ -1,0 +1,17 @@
+query MyQuery {
+  kos(where: {diskon: {_eq: true}},limit:6) {
+    id
+    nama
+    tipe
+    sisa
+    thumbnail
+    alamat
+    harga
+    harga_diskon
+    Kamar_mandi_dalam
+    Kamar_mandi_luar
+    Kulkas
+    Lemari
+    Tv
+  }
+}
