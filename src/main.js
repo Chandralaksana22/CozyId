@@ -5,6 +5,7 @@ import router from '@/router/index'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { createProvider } from './vue-apollo'
+import "regenerator-runtime";
 import compositionApi from '@vue/composition-api'
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
